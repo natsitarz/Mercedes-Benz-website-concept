@@ -1,6 +1,5 @@
 .mid { margin-top: 320px; }
-/* dodanie koloru i wielkosc navbara */
-.nav-bar {
+.nav-bar { /* dodanie koloru i wielkosc navbara */
     position: fixed;
     width: fit-content;  /* pełna szerokość*/
     height: 80px; /* wysokość paska */
@@ -49,6 +48,12 @@ min-width: fit-content;
 min-height: 100%;
 }
 
+#cars {
+  position: fixed;
+  min-width: fit-content;
+  min-height: fit-content;
+  }
+
 .content {
 position: fixed;
 bottom: 0;
@@ -78,7 +83,7 @@ padding: 100%;
   color: white;
   margin-top: 150px;
   margin-left: 150px;
-  text-shadow: 4px 4px #000000;
+  text-shadow: 2px 2px #000000;
 }
 
 .aut {
@@ -89,5 +94,72 @@ padding: 100%;
   color: white;
   margin-top: 250px;
   margin-left: 175px;
-  text-shadow: 4px 4px #000000;
+  text-shadow: 2px 2px #000000;
+}
+
+.b1 {
+  position: fixed;
+  width: 500px;
+  height: 600px; /* wysokość paska */
+  background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.bh {
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: garamond,serif;
+  font-size: 64px;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+.bt {
+  position: fixed;
+  vertical-align: top;
+  font-family: garamond,serif;
+  font-size: 32px;
+  color: white;
+  margin-top: 400px;
+  margin-left: 200px;
+  text-shadow: 2px 2px #000000;
+}
+
+.bhh {
+  position: fixed;
+  vertical-align: top;
+  font-family: garamond,serif;
+  font-size: 64px;
+  color: white;
+  margin-top: 300px;
+  margin-left: 150px;
+  text-shadow: 2px 2px #000000;
+}
+
+
+.b2 {
+  position: fixed;
+  width: 500px;
+  height: 600px; /* wysokość paska */
+  background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
+  margin-top: 150px;
+  margin-left: 700px;
+}
+
+.b3 {
+  position: fixed;
+  width: 500px;
+  height: 600px; /* wysokość paska */
+  background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
+  margin-top: 150px;
+  margin-left: 1300px;
+}
+
+
+.carv {
+  position: fixed;
+  margin-top: 250px;
+  margin-left: 1100px;
 }
