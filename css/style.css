@@ -23,9 +23,6 @@
     line-height: 80px;    /* pozycjonowanie linków na pasku menu */
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    .p1 {
-    font-family: "Times New Roman", Times, serif;
-  }
 }
 .p1 {
 font-family: "Times New Roman", Times, serif;
@@ -39,8 +36,8 @@ font-family: Arial, Helvetica, sans-serif;
 font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.p3 {
-font-family: "Lucida Console", "Courier New", monospace;
+.p4 {
+font-family: garamond,serif;
 }
 
 #myVideo {
@@ -71,4 +68,26 @@ padding: 100%;
   color: white;
   text-align: center;
   font-family:  Arial, sans-serif;
+}
+
+.auh {
+  position: fixed;
+  vertical-align: top;
+  font-family: garamond,serif;
+  font-size: 64px;
+  color: white;
+  margin-top: 150px;
+  margin-left: 150px;
+  text-shadow: 4px 4px #000000;
+}
+
+.aut {
+  position: fixed;
+  vertical-align: top;
+  font-family: garamond,serif;
+  font-size: 32px;
+  color: white;
+  margin-top: 250px;
+  margin-left: 175px;
+  text-shadow: 4px 4px #000000;
 }
