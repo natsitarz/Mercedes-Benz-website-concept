@@ -1,27 +1,21 @@
-.mid { margin-top: 320px; }
-.nav-bar { /* dodanie koloru i wielkosc navbara */
-    position: fixed;
-    width: fit-content;  /* pełna szerokość*/
+.mid {margin-top: 250px; position: flex}
+.navbar { /* dodanie koloru i wielkosc navbara */
+    margin-right: auto;
+    margin-left: auto;
+    position: flex;
+    width: 100%;  /* pełna szerokość*/
     height: 80px; /* wysokość paska */
     background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
 }
 .logo {
+  margin-right: 20px;
     display: inline-block;
     vertical-align: top;
     width: 50px; /* szerokość loga */
     height: 50px; /* wysokość loga */
-    margin-right: 20px; /* pozycjonowanie loga od prawej na pasku menu */
-    margin-top: 15px;    /* pozycjonowanie loga od góry na pasku menu */
-    margin-left: 15px; /* pozycjonowanie loga od lewej na pasku menu */
 }
-.nav-bar > a {
+.navbar > a {
     display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    height: 80px;        /* możliwość zajmowania całego paska */
-    line-height: 80px;    /* pozycjonowanie linków na pasku menu */
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 .p1 {
 font-family: "Times New Roman", Times, serif;
@@ -36,10 +30,19 @@ font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .p4 {
+margin-right: 10px;
 font-family: garamond,serif;
 color: white;
+text-decoration: none;
 }
 
+.pf {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: garamond,serif;
+  color: white;
+  text-decoration: none;
+ }
 #myVideo {
 position: fixed;
 right: 0;
@@ -74,6 +77,7 @@ padding: 100%;
   color: white;
   text-align: center;
   font-family:  Arial, sans-serif;
+  z-index: 5;  
 }
 
 .auh {
@@ -99,22 +103,24 @@ padding: 100%;
 }
 
 .b1 {
-  position: fixed;
   width: 500px;
   height: 600px; /* wysokość paska */
   background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
-  margin-top: 150px;
-  margin-left: 100px;
+  margin-top: -100px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bh {
-  position: fixed;
+  position: relative;
   margin-left: 20px;
-  margin-top: 10px;
+  top: 100px;
   font-family: garamond,serif;
   font-size: 64px;
   color: white;
   text-shadow: 2px 2px #000000;
+  z-index: 2;
 }
 
 .bt {
@@ -141,21 +147,21 @@ padding: 100%;
 
 
 .b2 {
-  position: fixed;
   width: 500px;
   height: 600px; /* wysokość paska */
   background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
-  margin-top: 150px;
-  margin-left: 700px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .b3 {
-  position: fixed;
   width: 500px;
   height: 600px; /* wysokość paska */
   background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
-  margin-top: 150px;
-  margin-left: 1300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -163,4 +169,9 @@ padding: 100%;
   position: fixed;
   margin-top: 250px;
   margin-left: 1100px;
+}
+
+a:hover{
+  text-decoration: none;
+  color:white;
 }
