@@ -1,17 +1,13 @@
-.mid {margin-top: auto; margin-bottom: auto}
+.mid {position: flex; margin-top: 200px; margin-bottom: auto;}
 .navbar { /* dodanie koloru i wielkosc navbara */
     margin-right: auto;
     margin-left: auto;
-    position: flex;
     width: 100%;  /* pełna szerokość*/
     height: 80px; /* wysokość paska */
     background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
+    z-index: 7;
 }
-.logo {
-  margin-right: 20px;
-    width: 50px; /* szerokość loga */
-    height: 50px; /* wysokość loga */
-}
+
 .navbar > a {
     display: inline-block;
 }
@@ -42,11 +38,6 @@ text-decoration: none;
   text-decoration: none;
  }
 
-.ifrm{
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 #myVideo {
 position: fixed;
 right: 0;
@@ -57,10 +48,10 @@ min-height: 100%;
 z-index: -1;
 }
 
-#cars {
+.cars {
   position: fixed;
-  min-width: fit-content;
-  min-height: fit-content;
+  max-width: fit-content;
+  max-height: fit-content;
   }
 
 .content {
@@ -91,9 +82,9 @@ z-index: -1;
     text-align: center;
     position: flex;
     font-family: garamond,serif;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -107,9 +98,9 @@ z-index: -1;
     text-align: center;
     position: flex;
     font-family: garamond,serif;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
-    margin-top: 60px;
+    margin-top: 120px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -123,7 +114,7 @@ z-index: -1;
     text-align: center;
     position: flex;
     font-family: garamond,serif;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     margin-top: auto;
     margin-bottom: auto;
@@ -139,7 +130,7 @@ z-index: -1;
     text-align: center;
     position: flex;
     font-family: garamond,serif;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     margin-top: auto;
     margin-bottom: auto;
@@ -151,19 +142,18 @@ z-index: -1;
 }
 
 .b1 {
-  width: 500px;
-  height: 600px; /* wysokość paska */
-  background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
-  margin-top: -100px;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 35px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .bh {
-  position: relative;
+  position: flex;
   margin-left: 20px;
-  top: 100px;
   font-family: garamond,serif;
   font-size: 64px;
   color: white;
@@ -195,8 +185,8 @@ z-index: -1;
 
 
 .b2 {
-  width: 500px;
-  height: 600px; /* wysokość paska */
+  width: fit-content;
+  height: fit-content;
   background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
   margin-top: 30px;
   margin-left: auto;
@@ -204,8 +194,8 @@ z-index: -1;
 }
 
 .b3 {
-  width: 500px;
-  height: 600px; /* wysokość paska */
+  width: fit-content;
+  height: fit-content;
   background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
   margin-top: 30px;
   margin-left: auto;
