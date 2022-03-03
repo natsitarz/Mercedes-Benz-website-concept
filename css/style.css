@@ -42,6 +42,11 @@ text-decoration: none;
   text-decoration: none;
  }
 
+.ifrm{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 #myVideo {
 position: fixed;
 right: 0;
@@ -49,6 +54,7 @@ bottom: 0;
 top: 0;
 min-width: fit-content;
 min-height: 100%;
+z-index: -1;
 }
 
 #cars {
@@ -65,6 +71,7 @@ color: #f1f1f1;
 width: fit-content;
 right: 0;
 padding: 100%;
+z-index: -1;
 }
 
 .footer {
@@ -80,24 +87,30 @@ padding: 100%;
 }
 
 .auh {
-  position: fixed;
-  vertical-align: top;
+  text-align: center;
+  position: flex;
   font-family: garamond,serif;
-  font-size: 64px;
+  font-size: 4vw;
   color: white;
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 60px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
   text-shadow: 2px 2px #000000;
 }
 
 .aut {
-  position: fixed;
-  vertical-align: top;
+  text-align: center;
+  position: flex;
   font-family: garamond,serif;
-  font-size: 32px;
+  font-size: 2vw;
   color: white;
-  margin-top: 250px;
-  margin-left: 175px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
   text-shadow: 2px 2px #000000;
 }
 
