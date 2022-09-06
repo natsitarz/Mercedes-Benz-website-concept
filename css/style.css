@@ -1,259 +1,271 @@
-.mid {position: flex; margin-top: 200px; margin-bottom: auto;}
-.navbar { /* dodanie koloru i wielkosc navbara */
+.mid {
+    position: flex;
+    margin-top: 200px;
+    margin-bottom: auto;
+}
+
+.navbar {
+    /* dodanie koloru i wielkosc navbara */
     margin-right: auto;
     margin-left: auto;
-    width: 100%;  /* pełna szerokość*/
-    height: 80px; /* wysokość paska */
-    background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
+    width: 100%;
+    /* pełna szerokość*/
+    height: 80px;
+    /* wysokość paska */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* kolor paska */
     z-index: 7;
 }
 
-.navbar > a {
+.navbar>a {
     display: inline-block;
 }
+
 .p1 {
-font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .p2 {
-font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .p3 {
-font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .p4 {
-margin-right: 10px;
-font-family: garamond,serif;
-color: white;
-text-decoration: none;
+    margin-right: 10px;
+    font-family: garamond, serif;
+    color: white;
+    text-decoration: none;
 }
 
 .pf {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: garamond,serif;
-  color: white;
-  text-decoration: none;
- }
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: garamond, serif;
+    color: white;
+    text-decoration: none;
+}
 
 #myVideo {
-position: fixed;
-right: 0;
-bottom: 0;
-top: 0;
-min-width: fit-content;
-min-height: 100%;
-z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-width: fit-content;
+    min-height: 100%;
+    z-index: -1;
 }
 
 .cars {
-  position: fixed;
-  max-width: fit-content;
-  max-height: fit-content;
-  }
+    position: fixed;
+    max-width: fit-content;
+    max-height: fit-content;
+}
 
 .content {
-position: fixed;
-bottom: 0;
-background: rgba(0, 0, 0, 0.85);
-color: #f1f1f1;
-width: fit-content;
-right: 0;
-padding: 100%;
-z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: #f1f1f1;
+    width: fit-content;
+    right: 0;
+    padding: 100%;
+    z-index: -1;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
-  color: white;
-  text-align: center;
-  font-family:  Arial, sans-serif;
-  z-index: 5;  
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    z-index: 5;
 }
 
 @media screen and (max-width: 600px) {
-  .auh {
-    text-align: center;
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 40px;
-    color: white;
-    margin-top: 80px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 2;
-    text-shadow: 2px 2px #000000;
-  }
+    .auh {
+        text-align: center;
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 40px;
+        color: white;
+        margin-top: 80px;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (min-width: 601px) {
-  .auh {
-    text-align: center;
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 60px;
-    color: white;
-    margin-top: 120px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 2;
-    text-shadow: 2px 2px #000000;
-  }
+    .auh {
+        text-align: center;
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 60px;
+        color: white;
+        margin-top: 120px;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .aut {
-    text-align: center;
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 20px;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 2;
-    text-shadow: 2px 2px #000000;
-  }
+    .aut {
+        text-align: center;
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (min-width: 601px) {
-  .aut {
-    text-align: center;
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 40px;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 2;
-    text-shadow: 2px 2px #000000;
-  }
+    .aut {
+        text-align: center;
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 40px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 .b1 {
-  width: fit-content;
-  height: fit-content;
-  background-color: rgba(0, 0, 0, 0.8);
-  margin-top: 30px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bh {
-  position: flex;
-  margin-left: 20px;
-  font-family: garamond,serif;
-  font-size: 64px;
-  color: white;
-  text-shadow: 2px 2px #000000;
-  z-index: 2;
+    position: flex;
+    margin-left: 20px;
+    font-family: garamond, serif;
+    font-size: 64px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    z-index: 2;
 }
 
 @media screen and (max-width: 600px) {
-  .bhh {
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 40px;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-  }
+    .bhh {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 40px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (min-width: 601px) {
-  .bhh {
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 60px;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-  }
+    .bhh {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 60px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .bt {
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 20px;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-  }
+    .bt {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (min-width: 601px) {
-  .bt {
-    position: flex;
-    font-family: garamond,serif;
-    font-size: 20px;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-  }
+    .bt {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 .b2 {
-  width: fit-content;
-  height: fit-content;
-  background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* kolor paska */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .b3 {
-  width: fit-content;
-  height: fit-content;
-  background-color: rgba(0, 0, 0, 0.8); /* kolor paska */
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* kolor paska */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 .carv {
-  position: flex;
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
+    position: flex;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-a:hover{
-  text-decoration: none;
-  color:white;
+a:hover {
+    text-decoration: none;
+    color: white;
 }
 
 body {
-  background-color: #000000;
+    background-color: #000000;
 }
