@@ -1,6 +1,3 @@
 # Mercedes Benz - Website concept
-Strona na lekcję informatyki.
 
-JEST TO TYLKO KONCEPT STRONY.
-WSZYSTKIE ELEMENTY SĄ CHRONIONE
-PRAWAMI AUTORSKIMI ICH TWÓRCÓW.
+It's only a concept.
