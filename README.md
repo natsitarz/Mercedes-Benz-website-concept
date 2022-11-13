@@ -1,4 +1,4 @@
-# www
+# Mercedes Benz - Website concept
 Strona na lekcję informatyki.
 
 JEST TO TYLKO KONCEPT STRONY.
