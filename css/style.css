@@ -34,6 +34,15 @@
 }
 
 .p4 {
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: garamond, serif;
+    color: white;
+    text-decoration: none;
+}
+
+.brand-name {
+    font-size: 26px;
     margin-right: 10px;
     font-family: garamond, serif;
     color: white;
@@ -88,49 +97,30 @@
     z-index: 5;
 }
 
-@media screen and (max-width: 600px) {
-    .auh {
-        text-align: center;
-        position: flex;
-        font-family: garamond, serif;
-        font-size: 40px;
-        color: white;
-        margin-top: 80px;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 2;
-        text-shadow: 2px 2px #000000;
-    }
-}
-
-@media screen and (min-width: 601px) {
-    .auh {
-        text-align: center;
-        position: flex;
-        font-family: garamond, serif;
-        font-size: 60px;
-        color: white;
-        margin-top: 120px;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 2;
-        text-shadow: 2px 2px #000000;
-    }
+.about-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
 @media screen and (max-width: 600px) {
     .aut {
         text-align: center;
-        position: flex;
         font-family: garamond, serif;
         font-size: 20px;
         color: white;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+        font-weight: lighter;
+    }
+    .auh {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
         z-index: 2;
         text-shadow: 2px 2px #000000;
     }
@@ -139,14 +129,19 @@
 @media screen and (min-width: 601px) {
     .aut {
         text-align: center;
-        position: flex;
         font-family: garamond, serif;
-        font-size: 40px;
+        font-size: 30px;
         color: white;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+        font-weight: lighter;
+    }
+    .auh {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
         z-index: 2;
         text-shadow: 2px 2px #000000;
     }
@@ -185,9 +180,33 @@
         text-align: center;
         text-shadow: 2px 2px #000000;
     }
+    .bt {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (min-width: 601px) {
+    .bt {
+        position: flex;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
     .bhh {
         position: flex;
         font-family: garamond, serif;
@@ -202,33 +221,13 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    .bt {
-        position: flex;
-        font-family: garamond, serif;
-        font-size: 20px;
-        color: white;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-        text-shadow: 2px 2px #000000;
-    }
-}
 
-@media screen and (min-width: 601px) {
-    .bt {
-        position: flex;
-        font-family: garamond, serif;
-        font-size: 20px;
-        color: white;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-        text-shadow: 2px 2px #000000;
+/* EXCLUSIVE FIRST PLACE FOR GALAXY *cough* trash *cough* FOLD! */
+
+@media screen and (max-width: 430px) {
+    .brand-name {
+        visibility: hidden;
+        font-size: 0px;
     }
 }
 
