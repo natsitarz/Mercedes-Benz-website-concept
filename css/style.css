@@ -99,48 +99,6 @@
     height: 80vh;
 }
 
-@media screen and (max-width: 600px) {
-    .aut {
-        text-align: center;
-        font-family: garamond, serif;
-        font-size: 20px;
-        color: white;
-        z-index: 2;
-        text-shadow: 2px 2px #000000;
-        font-weight: lighter;
-    }
-    .auh {
-        text-align: center;
-        font-family: garamond, serif;
-        font-size: 40px;
-        font-weight: bold;
-        color: white;
-        z-index: 2;
-        text-shadow: 2px 2px #000000;
-    }
-}
-
-@media screen and (min-width: 601px) {
-    .aut {
-        text-align: center;
-        font-family: garamond, serif;
-        font-size: 25px;
-        color: white;
-        z-index: 2;
-        text-shadow: 2px 2px #000000;
-        font-weight: lighter;
-    }
-    .auh {
-        text-align: center;
-        font-family: garamond, serif;
-        font-size: 60px;
-        font-weight: bold;
-        color: white;
-        z-index: 2;
-        text-shadow: 2px 2px #000000;
-    }
-}
-
 .b1 {
     width: fit-content;
     height: fit-content;
@@ -186,6 +144,24 @@
         text-align: center;
         text-shadow: 2px 2px #000000;
     }
+    .aut {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 20px;
+        color: white;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+        font-weight: lighter;
+    }
+    .auh {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
 @media screen and (min-width: 601px) {
@@ -211,6 +187,24 @@
         margin-right: auto;
         margin-left: auto;
         text-align: center;
+        text-shadow: 2px 2px #000000;
+    }
+    .aut {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 25px;
+        color: white;
+        z-index: 2;
+        text-shadow: 2px 2px #000000;
+        font-weight: lighter;
+    }
+    .auh {
+        text-align: center;
+        font-family: garamond, serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+        z-index: 2;
         text-shadow: 2px 2px #000000;
     }
 }
