@@ -67,12 +67,6 @@
     z-index: -1;
 }
 
-.cars {
-    position: fixed;
-    max-width: fit-content;
-    max-height: fit-content;
-}
-
 .content {
     position: fixed;
     top: 0;
